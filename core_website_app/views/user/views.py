@@ -181,6 +181,7 @@ def help_page(request):
         request,
         "core_website_app/user/help.html",
         context={"help": help_page_object, "page_title": "Help"},
+        assets={"css": ["core_website_app/user/css/help.css"]},
     )
 
 
